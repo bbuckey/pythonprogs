@@ -1,4 +1,5 @@
 import mechanize
+import lxml
 from lxml import html
 
 
@@ -9,5 +10,7 @@ response = mechanize.urlopen(request)
 #print response.read()
 x = html.fromstring(str(response.read()))
 
-print x
+if __name__ == '__main__':
+	print html.
+##	print lxml.etree.tostring(x, pretty_print=True) ## prints the html
 

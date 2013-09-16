@@ -142,27 +142,4 @@ if __name__ == "__main__":
 	#	return self
 #, parseString
 #import uuid
-#from lxml import etree
 
-#uuid.uuid1()
-#f = open("depoly.properties", 'r')
-#props = parse_properties(f)
-#extractq = "/jobfarm/mothership/rest/compat/sync/queue/eextract-relsh"
-#callback = "bfqafarm001:8089/bundles/eextract-relsh"
-#callback = "bfchsfarm004:8080/jobfarm/mothership/rest/compat/message/status"
-#callback = "localhost:8080"
-#server = "bfqafarm001:8080"
-###"http://bfqafarm001:8080/jobfarm/mothership/rest/agents"
-## "bfqafarm001:8080"
-#JF_HOME = os.getenv("BF_JOBFARM_HOME")
-#looper = True
-#http://bfqafarm001/queue/extractbatch
-#http://localhost:8080/jobfarm/mothership/rest/compat/queue
-#http://localhost:8080/jobfarm/mothership/rest/compat/queue/ExtractBatch
-#http://10.200.21.6/jobfarm/mothership/ui/bundles
-#bfqafarm001,bfqafarm002,bfqafarm004,bfdevfarm003,bfchsfarm004,
-#bfchsfarm005:8161/admin/
-#Ports : 8080, 8089, 8082
-#http://bfchsfarm004:8089/bundles
-#http://bfqafarm001:8089/bundles
-#http://bfqafarm001:8080/jobfarm/mothership/rest/compat/sync/queue/eextract-relsh

@@ -9,7 +9,7 @@ xeparser = etree.XMLParser(recover=True,huge_tree=True,ns_clean=True)
 
 
 
-loc = "/Users/bbuckey/projects/extract/trunk/extractConversion/results/HEALTHNOW/*.xml"
+loc = "/Users/bbuckey/projects/results/123/*.xml"
 
 xmlfils = [ x for x in glob(loc)]
 

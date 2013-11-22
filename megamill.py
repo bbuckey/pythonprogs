@@ -6,7 +6,7 @@ import calendar, os, sys, datetime, gc, glob,random, codecs
 powerball = [i for i in range(1,47)]
 picks = [i for i in range(1,57)]
 allpicks = {}
-loc = "/users/bbuckey/projects/pythonprogs/2005-2011meganumbers.txt"
+loc = "2005-2011meganumbers.txt"
 infile = open(loc,'r')
 llist = [n.strip('\n').split('\t') for n in infile.readlines()]
 flist = [(n[5],n[0:5]) for n in llist]

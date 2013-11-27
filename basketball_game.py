@@ -159,11 +159,11 @@ if __name__ == "__main__":
 		y=int(game.getTime())
 		h = abs(len(game.getOddTeam().getTeam()) - int(size))
 		for x in range(0,h):
-			z =  (y+x) % int(len(game.getOddTeam().getTeam()))
+			z =  (y+(x+1)) % int(len(game.getOddTeam().getTeam()))
 			game.getOddTeam().removePlayer(z)
 		h = abs(len(game.getEvenTeam().getTeam()) - int(size))
 		for x in range(0,h):
-			z =  (y+x) % int(len(game.getEvenTeam().getTeam()))
+			z =  (y+(x+1)) % int(len(game.getEvenTeam().getTeam()))
 			game.getEvenTeam().removePlayer(z)
 		listfinal = list()
 		for n in game.getOddTeam().getTeam():

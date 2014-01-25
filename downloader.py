@@ -21,7 +21,7 @@ def thread_search(ga, searchType, **kwargs):
                 index += threadsPerPage
             yield libgmail.GmailSearchResult(ga, (searchType, kwargs), threadsInfo)
 
-ga = libgmail.GmailAccount("ben.buckey@gmail.com", "Jaxfl123")
+ga = libgmail.GmailAccount("ben.buckey@gmail.com", "")
 ga.login()
 
 for page in thread_search(ga, "query", q="is:chat"):
